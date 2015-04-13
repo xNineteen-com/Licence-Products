@@ -1,10 +1,10 @@
 <?php
 header("Content-type: text/xml"); 
 echo '<?xml version="1.0" encoding="UTF-8"?>';
-$db_host = 'localhost';
-$db_user = 'xninetee_admin';
-$db_pass = 'xNineteen92';
-$db_name = 'xninetee_protect';
+$db_host = 'HOST';
+$db_user = 'DB_USER';
+$db_pass = 'DB_PASS';
+$db_name = 'DB_NAME';
 $mysqli = new mysqli($db_host, $db_user, $db_pass, $db_name);
 
 	if(isset($_GET['key']) && isset($_GET['domain']))
